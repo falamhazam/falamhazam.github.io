@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
 </head>
+
 <body>
-   <h1>Formularz zapisu ucczestnika na szkolenie</h1><br>
-   <form action="https://formspree.io/zygi@yandex.ru"
-      method="POST" id="formularz">
-    <label for="imie">Imię:</label><br>
-    <input type="text" name="imie" required><br>
-    
-    <label for="nazwisko">Nazwisko:</label><br>
-    <input type="text" name="nazwisko" required><br>
-    
-    <label for="email">E-mail:</label><br>
-    <input type="email" name="email" required><br>
-    
-    <label for="telefon">Numer telefonu:</label><br>
-    <input type="tel" name="telefon" required><br>
-    
-    <label for="miasto">Wybierz miasto:</label><br>
-        <select name="miasto" id="formularz" required>
+    <h1>Formularz zapisu ucczestnika na szkolenie</h1><br>
+    <form action="https://formspree.io/zygi@yandex.ru" method="POST">
+        <label for="imie">Imię:</label><br>
+        <input type="text" name="imie" id="imie" required><br>
+
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" name="nazwisko" id="nazwisko" required><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="telefon">Numer telefonu:</label><br>
+        <input type="tel" name="telefon" id="telefon" required><br>
+
+        <label for="miasto">Wybierz miasto:</label><br>
+        <select name="miasto" id="miasto">
             <option value="Kraków">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdańsk">Gdańsk</option>
        </select><br><br>
-       
-    <label for="płeć">Podaj płeć:</label><br>
-    <input type="radio" name="płeć" value="kobieta">Kobieta<br>
-    <input type="radio" name="płeć" value="mężczyzna">Mężczyzna<br><br>
-      
-    <label for="zgoda">Zgadzam się na użycie moich danych osobowych.</label><br>
-    <input type="checkbox" name="zgoda" value="zgadzam-sie" required>Zgadzam się.<br><br>
-      
-    <label for="wiadomosc">Wiadomość (opcjonalnie):</label><br>
-    <textarea name="wiadomosc" rows="4" cols="50">Wpisz wiadomość tutaj...</textarea><br>
-    
-    <input type="submit" value="Wyślij">
-</form>
-    
+
+        <label for="płeć">Podaj płeć:</label><br>
+        <input type="radio" name="płeć" id="płeć" value="kobieta">Kobieta<br>
+        <input type="radio" name="płeć" id="płeć" value="mężczyzna">Mężczyzna<br><br>
+
+        <label for="zgoda">Zgadzam się na użycie moich danych osobowych.</label><br>
+        <input type="checkbox" name="zgoda" id="zgoda" value="zgadzam-sie" required>Zgadzam się.<br><br>
+
+        <label for="wiadomosc">Wiadomość (opcjonalnie):</label><br>
+        <textarea name="wiadomosc" id="wiadomosc" rows="4" cols="50">Wpisz wiadomość tutaj...</textarea><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+
 </body>
+
 </html>
