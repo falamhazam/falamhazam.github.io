@@ -16,6 +16,8 @@ textarea {
     margin-top: 5px;
     margin-bottom: 15px;
     padding: 5px;
+    box-sizing: border-box;
+    outline: 0;
 
 }
 
