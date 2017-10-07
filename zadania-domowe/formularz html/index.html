@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Formularz zapisu ucczestnika na szkolenie</h1><br>
-    <form action="https://formspree.io/zygi@yandex.ru" method="POST">
+
+    <form id="container" action="https://formspree.io/zygi@yandex.ru" method="POST">
         <label for="imie">Imię:</label><br>
         <input type="text" name="imie" id="imie" required><br>
 
@@ -26,7 +27,7 @@
             <option value="Kraków">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdańsk">Gdańsk</option>
-       </select><br><br>
+       </select><br>
 
         <p>Podaj płeć:</p>
         <label for="płeć1"></label>
@@ -34,14 +35,19 @@
         <label for="płeć2"></label>
         <input type="radio" name="płeć" id="płeć2" value="mężczyzna">Mężczyzna<br><br>
 
-        <label for="zgoda">Zgadzam się na użycie moich danych osobowych.</label><br>
-        <input type="checkbox" name="zgoda" id="zgoda" value="zgadzam-sie" required>Zgadzam się.<br><br>
+
 
         <label for="wiadomosc">Wiadomość (opcjonalnie):</label><br>
-        <textarea name="wiadomosc" id="wiadomosc" rows="4" cols="50">Wpisz wiadomość tutaj...</textarea><br>
+        <textarea name="wiadomosc" id="wiadomosc" rows="6" cols="50">Wpisz wiadomość tutaj...</textarea><br>
+
+        <input type="checkbox" name="zgoda" id="zgoda" value="zgadzam-sie" required>
+
+
+        <label for="zgoda">Zgadzam się na użycie moich danych osobowych.</label><br>
 
         <input type="submit" value="Wyślij">
     </form>
+
 
 </body>
 
