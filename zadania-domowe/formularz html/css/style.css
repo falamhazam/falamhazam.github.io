@@ -2,7 +2,8 @@
     background-color: #213b50;
     padding: 20px;
     color: #ffffff;
-    width: 50%;
+    width: 45%;
+    border-radius: 2%;
 
 
 }
@@ -48,6 +49,6 @@ input[type="submit"] {
     width: 80px;
     padding: 10px;
     font-weight: 800;
-
-
+    text-align: center;
+    
 }
