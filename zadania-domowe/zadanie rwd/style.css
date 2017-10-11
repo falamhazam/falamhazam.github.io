@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    color: white;
+    
+}
+
+figure {
+    margin: 0;
+    position: relative;
+    
+    
+}
+
+figure img {
+    
+    width: 100%;
+    
+}
+
+#text {
+    position: absolute;
+    margin: 0;
+    top: 45%;
+    left: 5%;
+    
+}

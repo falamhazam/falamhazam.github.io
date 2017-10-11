@@ -1,0 +1,40 @@
+.img-medium {
+    display: none;
+    
+}
+
+
+@media all and (min-width: 992px) and (max-width: 1170px) {
+        
+    .img-high {
+        display: none;
+        
+    }
+    
+    .img-medium {
+        display: block;
+        
+    }
+    
+    #text {
+        left: 55%;
+        top: 10%;
+        
+    }
+}
+
+@media all and (max-width: 991px) {
+    
+    body {
+        text-align: center;
+        
+    }
+    
+    #text {
+        display: inline-block;
+        color: black;
+        position: relative;
+        
+    }
+    
+}
