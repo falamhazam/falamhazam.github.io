@@ -1,35 +1,29 @@
-.img-medium {
-    display: none;
-    
-}
-
-
 @media all and (min-width: 992px) and (max-width: 1170px) {
-        
-    .img-high {
-        display: none;
-        
+
+    #container {
+        background-image: url(../img/man-2.jpg);
+        height: 70%;
+
     }
-    
-    .img-medium {
-        display: block;
-        
-    }
-    
     #text {
         left: 55%;
-        top: 10%;
-        
+        top: 4%;
+
     }
 }
 
 @media all and (max-width: 991px) {
-    
+
     body {
         text-align: center;
-        
+
     }
-    
+
+    #container {
+        height: 50%;
+
+    }
+
     #text {
         display: inline-block;
         color: black;
@@ -37,7 +31,7 @@
         width: 90%;
         margin: 0;
         font-size: 2vh;
-        
+
     }
-    
+
 }
