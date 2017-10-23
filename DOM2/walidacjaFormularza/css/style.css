@@ -1,0 +1,46 @@
+
+form {
+	font-size: 16px;
+	color: #fff;
+	width: 30%;
+	background-color: rgb(154, 186, 27);
+	padding: 30px;
+}
+
+input, label {
+	display: inline-block;
+}
+
+input[type='text'], input[type='email'] {
+	height: 20px;
+	width: 100%;
+}
+
+input[type="submit"] {
+	background: #ff9300;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px 18px;
+    font-weight: 700;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background: #333333;
+}
+
+label {
+	margin-top: 10px;s
+}
+
+p[id^=alert],  p.alert-checkbox{
+	color: red;
+	display: inline-block;
+	margin: 0;
+}
+
+#wiadomosc {
+	color: red;
+}
