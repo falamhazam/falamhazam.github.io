@@ -67,31 +67,34 @@ function ajax( ajaxOptions ) {
     
     httpReq.send();
 }
-//
-//ajax({
-//    type: "GET",
-//    url: "http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl",
-//    onError: function (msg) {
-//        console.log(msg);
-//    },
-//    onSuccess: function (response) {
-//
-//        //            console.log("połączenie działa i dane są pobierane :)");
-//
-//        var jsonObj = JSON.parse(response);
-//        console.log(jsonObj);
-//
-//
-//    }
-//});
 
-$.getJSON("http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl", function(data) {
-    console.log(data);
-    console.log(data.userId);
-    console.log(data.userName);
-    
+
+
+
+
+function pobierzDane(obiekt) {
+    document.getElementById('wstaw').innerHTML += JSON.stringify(obiekt);
+}
+
+document.getElementById('get').addEventListener('click',function(){
+    console.log('KLIKNIETO');
+    ajax({
+    type: "GET",
+    url: "http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl",
+    onError: function (msg) {
+        console.log(msg);
+    },
+    onSuccess: function (response) {
+
+        //            console.log("połączenie działa i dane są pobierane :)");
+
+        var jsonObj = JSON.parse(response);
+        console.log(jsonObj);
+        
+        pobierzDane(jsonObj);
+        
+    }
+});
 })
-
-
 
 
