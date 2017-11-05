@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    z-index: 3;
+}
+
+*:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+/*MENU START*/
+
+#main-nav li {
+    margin-right: 5%;
+
+}
+
+#main-nav ul {
+    float: right;
+}
+
+#main-nav ul:first-child {
+    margin-left: 42%;
+}
+
+
+#main-nav a.navbar-brand {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+#main-nav .nav-item a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#main-nav .nav-item a:hover {
+    color: #17A2B8;
+    text-decoration: none;
+
+}
+
+#main-nav.scroll {
+    background: linear-gradient(to bottom, rgba(14, 216, 214, 0.4), rgba(14, 216, 214, 0.5));
+
+
+}
+
+#main-nav.scroll .nav-item a:hover {
+    color: #777;
+}
+
+/*MENU STOP*/
+
+/*HEADER START*/
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F6F6F6;
+}
+
+header {
+    background-image: url(img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    font-size: 3em;
+
+
+    height: 85vh;
+
+}
+
+header .header-inside {
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+header button.btn.btn-info {
+    background-color: #10D8D8;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 30px;
+
+}
+
+header button.btn.btn-info:hover {
+    background-color: #fff;
+    color: #10D8D8;
+
+}
+
+
+/*HEADER STOP*/
+
+/*SERVICES START*/
+
+#services-container {
+    text-align: center;
+
+}
+
+#services-container .services-header {
+    margin-top: 50px;
+}
+
+#services-container div.services-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.services-content p {
+    font-size: 15px;
+
+}
+
+
+.icon-circle {
+    background-color: #0ed8d6;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    margin-bottom: 20px;
+
+    font-size: 40px;
+}
+
+
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h6 {
+    font-weight: 600;
+}
+
+
+
+#services-container .icon-circle:hover i {
+    transform: rotate(360deg);
+    background-color: #fff;
+    color: #0ed8d6;
+    transition: all 1s ease-in-out;
+
+}
+
+#services-container .icon-circle:hover {
+    background-color: #fff;
+    border: 2px solid #0ed8d6;
+}
+
+
+
+/*PORTFOLIO START*/
+
+#portfolio-container {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #F6F6F6;
+
+}
+
+#portfolio-container .row {
+    width: 100%;
+}
+
+#portfolio-container .portfolio-header {
+    margin-bottom: 50px;
+}
+
+#portfolio-container .portfolio-item {
+    background-color: #fff;
+
+}
+
+#portfolio-container .portfolio-image {
+    overflow: hidden;
+}
+
+#portfolio-container .portfolio-item .portfolio-image-background {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all .3s;
+}
+
+.portfolio-item figcaption {
+    padding: 20px;
+}
+
+
+
+#portfolio-container .portfolio-item .portfolio-image-mask i {
+    font-size: 2em;
+    color: #fff;
+}
+
+#portfolio-container .portfolio-item .portfolio-image-mask {
+    background-color: rgba(14, 216, 214, 0.85);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio-container .portfolio-item .portfolio-image-background:hover {
+    transform: scale(1.5);
+
+}
+
+#portfolio-container .portfolio-item .portfolio-image-background:hover .portfolio-image-mask {
+    opacity: 1;
+}
+
+
+
+#portfolio-container #portfolio-image-background-1 {
+    background-image: url(img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio-container #portfolio-image-background-2 {
+    background-image: url(img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio-container #portfolio-image-background-3 {
+    background-image: url(img/Maltanczyk_16.jpg);
+}
+
+#portfolio-container #portfolio-image-background-4 {
+    background-image: url(img/Maltanczyk_%20icekitty37%20sxc.jpg);
+}
+
+#portfolio-container #portfolio-image-background-5 {
+    background-image: url(img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio-container #portfolio-image-background-6 {
+    background-image: url(img/10392484_729636657091672_7842690085987169907_n.jpg);
+}
+
+/*MEET TEAM START*/
+
+#meet-team-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+.meet-team-item {
+    padding: 30px;
+}
+
+#meet-team-container img {
+    max-width: 25vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.social-circle {
+    display: inline-block;
+    background-color: #000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    color: #fff;
+    font-size: 1em;
+
+}
+
+.social-circle:hover {
+    background-color: #0ed8d6;
+    color: #fff;
+}
+
+.meet-team-footer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*MEET TEAM STOP*/
+
+/*CONTACT START*/
+
+#contact-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), url(img/footer/world-map.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    width: 100%;
+
+}
+
+.meet-team-header {
+    margin-bottom: 50px;
+}
+
+#contact-container input {
+    margin-bottom: 15px;
+    width: 60%;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 0px solid;
+
+}
+
+#contact-container textarea {
+    padding: 15px;
+    border-radius: 5px;
+    width: 60%;
+    height: 74%;
+    outline: none;
+}
+
+#contact-container button {
+    background-color: #10D8D8;
+    padding: 15px 30px;
+}
+
+#contact-container button:hover {
+    background-color: #fff;
+    color: #10D8D8;
+}
+
+/*FOOTER*/
+
+footer {
+
+    padding: 8px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #000;
+}
