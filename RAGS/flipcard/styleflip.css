@@ -1,0 +1,46 @@
+.flip3d {
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    position: absolute;
+    left: 50%;
+}
+
+.flip3d > .front {
+    position: absolute;
+
+    transform: perspective(600px) rotateY(0deg);
+    background-color: yellow;
+    width: 200px;
+    height: 400px;
+    backface-visibility: hidden;
+    transition: transform .5s linear;
+    background-image: url(../../../../RAGS-wycinki/wizyt%C3%B3wa-rags-page-001.jpg);
+    background-size: cover;
+}
+
+.flip3d > .back {
+    position: absolute;
+
+    transform: perspective(600px) rotateY(180deg);
+    background-color: green;
+    width: 200px;
+    height: 400px;
+    backface-visibility: hidden;
+    transition: transform .5s linear;
+    background-image: url(../../../../RAGS-wycinki/wizyt%C3%B3wa-rags-page-002.jpg);
+    background-size: cover;
+}
+
+.flip3d:hover .front,
+.flip3d:focus .front {
+
+    transform: perspective(600px) rotateY(-180deg)
+}
+
+.flip3d:hover .back,
+.flip3d:focus .back {
+
+    transform: perspective(600px) rotateY(0deg);
+
+}
