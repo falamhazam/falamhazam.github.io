@@ -57,7 +57,7 @@ nav.navbar button.navbar-toggler {
 /*NAV STYLE END*/
 
 /*FLIPCARD STYLE*/
-
+/*
 .flip3d {
     height: 450px;
     width: 300px;
@@ -113,5 +113,6 @@ div.modal-body {
 }
 
 div.modal-content {
-    width: 450px;
+    width: 50vw;
 }
+*/
