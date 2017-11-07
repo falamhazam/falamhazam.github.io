@@ -50,7 +50,7 @@ nav ul li a.kontakt:hover img.rags-icons {
     transform: rotate(24deg);
 }
 
-button.navbar-toggler {
+nav.navbar button.navbar-toggler {
     margin-right: 20px;
 }
 
