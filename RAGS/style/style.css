@@ -35,7 +35,7 @@ nav img.logo {
     margin-left: 20px;
 }
 
-img.rags-icons {
+nav img.rags-icons {
     max-height: 30px;
 }
 
@@ -145,4 +145,17 @@ div.modal-content {
 
 #about div.rags-paragraph {
     padding: 30px;
+}
+
+#about div.rags-paragraph img.rags-icons-low {
+    max-height: 40px;
+}
+
+#about div.rags-paragraph a {
+    color: #907676;
+    text-decoration: none;
+}
+
+img.rags-icons-low:hover {
+    transform: rotate(24deg);
 }
