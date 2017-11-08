@@ -145,6 +145,7 @@ div.modal-content {
 
 #about div.rags-paragraph {
     padding: 20px;
+    padding-top: 0px;
 }
 
 #about div.rags-paragraph img.rags-icons-low {
