@@ -14,6 +14,10 @@ body {
     padding: 0;
 }
 
+.row {
+    margin: 0;
+}
+
 /*NAV STYLE START*/
 
 nav {
@@ -128,6 +132,17 @@ div.modal-content {
 #rags-carousel .carousel-inner img {
     margin: 0 auto;
 }
+
 #rags-carousel {
     width: 100%;
+}
+
+/*ABOUT START*/
+
+#about div.rags-header {
+    padding: 30px;
+}
+
+#about div.rags-paragraph {
+    padding: 30px;
 }
