@@ -1,0 +1,38 @@
+@import "variables";
+
+footer {
+
+    background-color: $color-footer;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    div.footer-1-2 {
+        width: 50%;
+        float: left;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media #{$small-screen} {
+            width: 100%;
+
+        }
+    }
+    .yellow-circle {
+        width: 50px;
+        height: 50px;
+        background-color: $color-yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i {
+            color: $color-black
+        }
+    }
+    div.footer-bottom {
+        font-size: 10px;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

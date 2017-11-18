@@ -1,0 +1,27 @@
+@import "variables";
+
+body {
+    background-color: $base-color;
+}
+
+@mixin menu-nawigacyjne {
+    color: antiquewhite;
+    font-size: 22px;
+    padding: 20px;
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                @include menu-nawigacyjne;
+            }
+        }
+    }
+}

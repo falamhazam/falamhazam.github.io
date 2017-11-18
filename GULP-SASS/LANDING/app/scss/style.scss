@@ -1,0 +1,17 @@
+@import "header";
+@import "form";
+@import "variables";
+@import "footer";
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $main-font;
+    color: $color-white;
+}
+
+span {
+    color: $color-yellow;
+}
